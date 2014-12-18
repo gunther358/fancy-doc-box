@@ -1,0 +1,26 @@
+{
+  "name": "fancyDocumentBox",
+  "version": "0.0.1",
+  "authors": [
+    "ksiazekarol <karol@sixpoints.pl>",
+    "gunther <damian.debicki@gmail.com>"
+  ],
+  "description": "jQuery fancybox for documents with customizable buttons",
+  "main": [
+    "jquery.fancydocbox.js",
+    "jquery.fancydocbox.css"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "https://github.com/FortAwesome/Font-Awesome.git#~4.2.0",
+    "fancyBox": "https://github.com/fancyapps/fancyBox.git#~2.1.5",
+    "underscore": "1.7.0"
+  }
+}

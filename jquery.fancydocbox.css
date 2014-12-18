@@ -1,0 +1,118 @@
+.fancybox-overlay { 
+	background: black;
+}
+
+.fancybox-skin {
+	position: relative;
+	background: white;
+	color: #444;
+	text-shadow: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.fancybox-close2 {
+	position: fixed;
+	display: inline-block;
+	top: 20px;
+	right: 20px;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	z-index: 8040;
+	text-decoration: none;
+}
+.fancybox-close2:before {
+	font-family: FontAwesome;
+	content: "\f00d";
+	font-size: 28px;
+	color: white;
+	text-decoration: none;
+}
+
+#fancybox-buttons ul {
+	background: none;
+	background-image: none;
+	border: 0px;
+	box-shadow: none;
+	outline: none;
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+#fancybox-buttons a {
+	text-indent: 0px !important;
+	opacity: 1;
+	background-image: none;
+	background: none;
+	display: block;
+	border: 0px !important;
+	background-image: none;
+	width: 36px;
+	height: 36px;
+	padding: 5px 8px;
+	cursor: pointer;
+	z-index: 8040;
+	text-decoration: none;
+}
+
+#fancybox-buttons a.btnPrev:before {
+	font-family: FontAwesome;
+	content: "\f053";
+	font-size: 28px;
+	color: white;
+	text-decoration: none;
+}
+
+#fancybox-buttons a.btnNext:before {
+	font-family: FontAwesome;
+	content: "\f054";
+	font-size: 28px;
+	color: white;
+	text-decoration: none;
+}
+
+#fancybox-buttons a.btnPrint:before {
+	font-family: FontAwesome;
+	content: "\f02f";
+	font-size: 28px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#fancybox-buttons a.btnDownload:before {
+	font-family: FontAwesome;
+	content: "\f019";
+	font-size: 28px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#fancybox-buttons a.btnClose {
+	position: fixed;
+	display: inline-block;
+	top: 20px;
+	right: 20px;
+	width: 36px;
+	height: 36px;
+}
+#fancybox-buttons a.btnClose:before {
+	font-family: FontAwesome;
+	content: "\f00d";
+	font-size: 28px;
+	color: white;
+	text-decoration: none;
+}
+
+.fancybox-title-outside-wrap {
+	text-align: center;
+	margin-bottom: 8px;
+
+	color: #666;
+	font-size: 14px;
+}
+
+
+
+
