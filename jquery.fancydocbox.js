@@ -22,6 +22,12 @@ $(document).ready(function() {
 		data: {},
 		buttonTpl: $('<script type="text/template" id="fancybox-buttons-tpl">' +
 						'<div id="fancybox-buttons">' +
+							'<ul>' +
+							'<% if (typeof fancyboxPrev !== "undefined" && fancyboxPrev) { %><li><a class="btnPrev" title="Previous" href="javascript:"></a></li><% } %>' +
+							'<% if (typeof fancyboxDownloadUrl !== "undefined") { %><li><a class="btnDownload" title="Pobierz plik" href="<%= fancyboxDownloadUrl %>"></a></li><% } %>' +
+							'<% if (typeof fancyboxPrintUrl !== "undefined") { %><li><a class="btnPrint" title="Drukuj" href="<%= fancyboxPrintUrl %>"></a></li><% } %>' +
+							'<% if (typeof fancyboxNext !== "undefined" && fancyboxNext) { %><li><a class="btnNext" title="Next" href="javascript:"></a></li><% } %>' +
+							'</ul>' +
 							'<a class="btnClose" title="Zamknij" href="javascript:"></a>' +
 						'</div>' +
 					'</script>'),
