@@ -70,6 +70,10 @@ $(document).ready(function() {
 
 			config.fancyboxPrev = config.fancyboxNext = obj.group.length > 1;
 
+			if (obj.data.fancyboxButtonTpl) {
+				obj.buttonTpl = obj.data.fancyboxButtonTpl
+			}
+
 			var tpl = _.template($(obj.buttonTpl).html());
 
 			this.tpl = tpl(config);
