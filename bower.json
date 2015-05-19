@@ -21,6 +21,6 @@
   "dependencies": {
     "font-awesome": "https://github.com/FortAwesome/Font-Awesome.git#~4.2.0",
     "fancyBox": "https://github.com/fancyapps/fancyBox.git#~2.1.5",
-    "underscore": "~1.8.0"
+    "underscore": "~1.6.0"
   }
 }
